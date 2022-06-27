@@ -8,3 +8,4 @@ pacman -S dmenu
 cd dwm && make clean install && cd .. 
 cd slstatus && make clean install && cd .. 
 cd st && make install && cd ..
+echo "exec dwm" >> .xinitrc
